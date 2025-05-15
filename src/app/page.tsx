@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="container mx-auto px-4 py-12 md:py-20">
       <section className="text-center mb-16 md:mb-24">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary via-blue-400 to-cyan-400 animate-text-shine">
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary via-blue-400 to-cyan-400 animate-text-shine leading-normal pb-4">
           Welcome to DevTools Navigator
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto">
@@ -67,7 +67,7 @@ export default function Home() {
                   alt={`${tool.name} Logo`}
                   width={64}
                   height={32}
-                  className="h-8 w-auto object-contain mb-3 brightness-0 invert group-hover:brightness-100 group-hover:invert-0 transition-all duration-300"
+                  className="h-8 w-auto object-contain mb-3 group-hover:brightness-100 group-hover:invert-0 transition-all duration-300"
                   data-ai-hint={tool.logoAiHint}
                 />
                 <p className="text-sm font-medium text-muted-foreground group-hover:text-primary transition-colors">

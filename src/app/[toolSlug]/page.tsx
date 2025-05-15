@@ -35,7 +35,7 @@ export default async function ToolPage({ params }: { params: { toolSlug: string 
                 alt={`${name} Logo`}
                 width={200}
                 height={100}
-                className="h-20 w-auto object-contain brightness-0 invert"
+                className="h-20 w-auto object-contain"
                 data-ai-hint={logoAiHint}
                 priority
               />
